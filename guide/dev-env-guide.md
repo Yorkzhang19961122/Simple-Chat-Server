@@ -1,4 +1,4 @@
-### 一、开发环境搭建
+### 项目开发环境搭建
 
 #### 1. Ubuntu Linux环境
 
@@ -9,7 +9,7 @@
   * 直接包含JSON.hpp头文件即可
 * 安装boost库和muduo网络库
   * 安装boost库：[参考链接](https://blog.csdn.net/QIANGWEIYUAN/article/details/88792874)，注意最后测试代码使用`g++ test.cpp -o test`和`./test`进行编译运行
-  * 安装muduo库：
+  * 安装muduo库：[参考链接](https://blog.csdn.net/QIANGWEIYUAN/article/details/89023980)
 * 安装redis
   * `sudo apt-get install redis-server`
   * 安装完成后默认运行在6379端口
@@ -41,4 +41,6 @@
   输入完成后保存，左侧会出现配置好的信息，右键登陆即可（需要输入远程主机的密码）
 
 * 在local和远程主机上安装C/C++和Code Runner等插件
+
+至此，聊天服务器项目的开发环境基本搭建完毕。
 
